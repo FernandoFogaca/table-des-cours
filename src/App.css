@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: beige;
+  }
+  
+  .container {
+    margin: 0; 
+    padding: 2rem;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 1200px; /* Aumente o máximo de largura para 1200px */
+    text-align: center;
+    border: 3px solid #FFD700;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+  }
+  
+  li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: justify;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FFD700;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 
+    1px 1px 2px #000, /* Sombra preta para destaque */
+    0 0 25px gold, /* Brilho dourado */
+    0 0 5px #ff8c00; /* Brilho laranja escuro */
+}
+  
+  
